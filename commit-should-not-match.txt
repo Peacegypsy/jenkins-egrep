@@ -1,0 +1,19 @@
+Author: Kit Transue <noreply>
+Date:   Thu Oct 12 13:48:43 2023 -0700
+
+    Start to decode binary files
+
+Author: Kit Transue <noreply>
+Date:   Thu Oct 12 13:48:43 2023 -0700
+
+    Flat version of Python files
+
+Author: Kit Transue <noreply>
+Date:   Thu Oct 12 13:48:43 2023 -0700
+
+    choose a better name for markdown file
+
+Author: Kit Transue <noreply>
+Date:   Thu Oct 12 13:48:43 2023 -0700
+
+    starting point for merge practice

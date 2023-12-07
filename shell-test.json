@@ -1,0 +1,26 @@
+{
+    "git": {
+        "regex": "commit.*\\(\\)",
+        "should-match": "commit-should-match.txt",
+        "should-not-match": "commit-should-not-match.txt",
+        "command": "test-git.sh"
+    },
+    "git2": {
+        "regex": "tag",
+        "should-match": "tag-should-match.txt",
+        "should-not-match": "tag-should-not-match.txt",
+        "command": "test-git2.sh"
+    },
+    "plus-minus": {
+        "regex": "^+ ",
+        "should-match": "regex-yes.txt",
+        "should-not-match": "regex-no.txt",
+        "command": "test-plusminus.sh"
+    },
+    "auth-log": {
+        "regex": "New session",
+        "should-match": "a-should.txt",
+        "should-not-match": "a-should-not.txt",
+        "command": "test-auth.sh"
+    }
+}
