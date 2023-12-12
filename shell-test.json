@@ -1,5 +1,13 @@
 {
     "git": {
+        "regex": "",
+        "should-match": ".txt",
+        "should-not-match": ".txt",
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-git.sh"
+    },
+    "git1": {
         "regex": "commit.*\\(\\)",
         "should-match": "commit-should-match.txt",
         "should-not-match": "commit-should-not-match.txt",
