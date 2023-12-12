@@ -15,7 +15,7 @@
 # }
 # test_pattern '^+ ' '+ N3ur1L^8�y*d��8@�^p�'
 
-# grep '^+ ' junktext.txt
+grep '^+ ' junktext.txt
 
 # grep '^- ' junktext.txt
 
