@@ -3,6 +3,6 @@ services:
   jenkins:
     build:
       context: ..
-      dockerfile: .devcontainer/Dockerfile.jenkins
+      dockerfile: .devcontainer/Dock.jenkins
     volumes:
       - ../..:/workspaces:cached
