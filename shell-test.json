@@ -1,34 +1,42 @@
 {
     "git": {
-        "regex": "",
-        "should-match": ".txt",
-        "should-not-match": ".txt",
+        "regex": "Date",
+        "should-match": "yes-date.txt",
+        "should-not-match": "no-date.txt",
         "test-include": null,
         "test-exclude": null,
         "test-combined": "test-git.sh"
     },
     "git1": {
-        "regex": "commit.*\\(\\)",
+        "regex": "commit.*\\",
         "should-match": "commit-should-match.txt",
         "should-not-match": "commit-should-not-match.txt",
-        "command": "test-git.sh"
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-git1.sh"
     },
     "git2": {
         "regex": "tag",
         "should-match": "tag-should-match.txt",
         "should-not-match": "tag-should-not-match.txt",
-        "command": "test-git2.sh"
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-git2.sh"
     },
     "plus-minus": {
         "regex": "^+ ",
         "should-match": "regex-yes.txt",
         "should-not-match": "regex-no.txt",
-        "command": "test-plusminus.sh"
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-plusminus.sh"
     },
     "auth-log": {
         "regex": "New session",
         "should-match": "a-should.txt",
         "should-not-match": "a-should-not.txt",
-        "command": "test-auth.sh"
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-auth.sh"
     }
 }

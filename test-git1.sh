@@ -1,0 +1,1 @@
+grep 'commit.*' git-log.txt

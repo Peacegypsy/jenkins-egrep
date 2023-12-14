@@ -3,7 +3,7 @@
 # egrep "$PATTERN" < "junktext.txt"
 # test_pattern() {
 #     pattern="$1"
-#     testcase="$2"
+#     testcase="Failed password"
 
 #     if echo "$testcase" | grep -q "$pattern"; then
 #         echo "Test passed: '$testcase' matches pattern '$pattern' "
@@ -13,16 +13,18 @@
 #         exit 1
 #     fi
 # }
-# test_pattern '^+ ' '+ N3ur1L^8�y*d��8@�^p�'
+# test_pattern 'Failed password'
+#test_pattern '^+ ' '+ N3ur1L^8�y*d��8@�^p�'
 
-grep '^+ ' junktext.txt
+# grep '^+ ' junktext.txt
 
 # grep '^- ' junktext.txt
-
+# grep 'failed password' auth.log'
 # grep 'tag' git-log.txt
-
-# grep -i session| grep "opened" * auth.log 
-
+# grep 'user steve' auth.log
+#grep -E 'Failed password\|user steve' auth.log 
+grep 'Date' git-log.txt
+echo $?
 
 # egrep (all the things that SHOULD match)
 # egrep -v (all the things that DO NOT match) 
