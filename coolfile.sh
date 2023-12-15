@@ -1,24 +1,24 @@
 #!/bin/bash
-# PATTERN=$(head -1 "junktext.txt")
-# egrep "$PATTERN" < "junktext.txt"
-# test_pattern() {
-#     pattern="$1"
-#     testcase="Failed password"
+PATTERN=$(head -1 "junktext.txt")
+egrep "$PATTERN" < "junktext.txt"
 
-#     if echo "$testcase" | grep -q "$pattern"; then
-#         echo "Test passed: '$testcase' matches pattern '$pattern' "
-#         exit 0
-#     else
-#         echo "Test failed: '$testcase' does not match pattern '$pattern' "
-#         exit 1
-#     fi
-# }
-# test_pattern 'Failed password'
-#test_pattern '^+ ' '+ N3ur1L^8�y*d��8@�^p�'
+test_pattern() {
+    pattern="$1"
+    testcase="Force"
 
-grep '^+ ' junktext.txt
+    if echo "$testcase" | grep -q "$pattern"; then
+        echo "Test passed: '$testcase' matches pattern '$pattern' "
+        exit 0
+    else
+        echo "Test failed: '$testcase' does not match pattern '$pattern' "
+        exit 1
+    fi
+}
+test_pattern 'Force'
 
-grep '^- ' junktext.txt
+# grep '^+ ' junktext.txt
+
+# grep '^- ' junktext.txt
 # grep 'failed password' auth.log'
 # grep 'tag' git-log.txt
 # grep 'user steve' auth.log
