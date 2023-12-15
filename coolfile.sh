@@ -16,15 +16,15 @@
 # test_pattern 'Failed password'
 #test_pattern '^+ ' '+ N3ur1L^8�y*d��8@�^p�'
 
-# grep '^+ ' junktext.txt
+grep '^+ ' junktext.txt
 
-# grep '^- ' junktext.txt
+grep '^- ' junktext.txt
 # grep 'failed password' auth.log'
 # grep 'tag' git-log.txt
 # grep 'user steve' auth.log
 #grep -E 'Failed password\|user steve' auth.log 
-grep 'Date' git-log.txt
-echo $?
+# grep 'Date' git-log.txt
+# echo $?
 
 # egrep (all the things that SHOULD match)
 # egrep -v (all the things that DO NOT match) 

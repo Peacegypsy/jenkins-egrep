@@ -3,8 +3,8 @@
         "regex": "Date",
         "should-match": "yes-date.txt",
         "should-not-match": "no-date.txt",
-        "test-include": null,
-        "test-exclude": null,
+        "test-include": "git-date-in",
+        "test-exclude": "git-date-ex",
         "test-combined": "test-git.sh"
     },
     "git1": {
@@ -19,8 +19,8 @@
         "regex": "tag",
         "should-match": "tag-should-match.txt",
         "should-not-match": "tag-should-not-match.txt",
-        "test-include": null,
-        "test-exclude": null,
+        "test-include": "",
+        "test-exclude": "",
         "test-combined": "test-git2.sh"
     },
     "plus-minus": {
